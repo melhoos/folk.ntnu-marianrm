@@ -1,0 +1,90 @@
+<div class="row">
+<div class="col-md-1"></div>
+<div class="col-md-10">
+	<ul class="nav nav-pills">
+		<li><a ng-click="clickTab('data/appetizer.json')">Appetizer</a></li>
+	  	<li><a ng-click="clickTab('data/breakfast.json')">Breakfast</a></li>
+	  	<li><a ng-click="clickTab('data/dessert.json')">Dessert</a></li>
+	  	<li><a ng-click="clickTab('data/maindish.json')">Main dish</a></li>
+	  	<li><a ng-click="clickTab('data/pasta.json')">Pasta</a></li>
+	  	<li><a ng-click="clickTab('data/salad.json')">Salad</a></li>
+	  	<li><a ng-click="clickTab('data/sidedish.json')">Side dish</a></li>
+	  	<li><a ng-click="clickTab('data/snack.json')">Snack</a></li>
+	  	<li><a ng-click="clickTab('data/soup.json')">Soup</a></li>
+	</ul>
+	<table class="table">
+		<thead>
+			<tr><th></th></tr>
+		</thead>
+	</table>
+</div>
+<div class="col-md-1"></div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">{{modalRecipe.title}}</h4>
+      </div>
+      <div class="modal-body">
+      	<center>
+      		<!-- <img ng-src="{{modalRecipe.picture}}" style="width:300px;height:300px;"-->
+			<img src="//placekitten.com/g/400/287"/>
+	      	<p>{{modalRecipe.ingredients}}</p>
+	        <p> <b>Fremgangsmåte: </b>{{modalRecipe.description}}</p>
+        </center>
+        <p> <i class="fa fa-heart fa-fw" style="color:#FFC8F2"></i> {{modalRecipe.heart}} </p>
+        <p> <i class="fa fa-users fa-fw" style="color:#C9DECB"></i> {{modalRecipe.persons}} </p>
+        <p> <i class="fa fa-clock-o fa-fw" style="color:#BBDAFF"></i> {{modalRecipe.time}} min </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<form>
+		    <div class="form-group">
+		      <div class="input-group">
+		        <div class="input-group-addon"><i class="fa fa-search"></i></div>
+		        <input type="text" class="form-control" placeholder="Search" ng-model="search">
+		      </div>      
+		    </div>
+		  </form>
+		  <table class="table">
+		    <thead>
+		      <tr>
+		        <td>
+		          <a href="#/recipes" ng-click="sortType = 'name'; sortReverse = !sortReverse">
+		            Title
+		            <span ng-show="sortType == 'name' && !sortReverse" class="fa fa-caret-down"></span>
+		            <span ng-show="sortType == 'name' && sortReverse" class="fa fa-caret-up"></span>
+		          </a>
+		        </td>
+		        <td align="right">
+		          <a href="#/recipes" ng-click="sortType = 'tastiness'; sortReverse = !sortReverse">
+		          	<i class="fa fa-heart fa-fw" style="color:#333333"></i>
+		            <span ng-show="sortType == 'tastiness' && !sortReverse" class="fa fa-caret-down"></span>
+		            <span ng-show="sortType == 'tastiness' && sortReverse" class="fa fa-caret-up"></span>
+		          </a>
+		        </td>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr ng-repeat="category in chosenCategory  | orderBy:sortType:sortReverse | filter:search">
+		        <td data-toggle="modal" data-target="#myModal" ng-click="clickModal(category)">{{ category.title}}</td>
+		        <td align="right">{{ category.heart}} </td>
+		      </tr>
+		    </tbody>
+		  </table>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+
+

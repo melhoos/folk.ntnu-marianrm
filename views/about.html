@@ -1,0 +1,194 @@
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+			<ul class="nav nav-pills">
+				<li><a ng-click="showAboutMeButton()">About me</a></li>
+	  			<li><a ng-click="showEducationButton()">Education</a></li>
+	  			<li><a ng-click="showWorkExperienceButton()">Work Experience</a></li>
+	  			<li><a ng-click="showMiscellaneousButton()">Miscellaneous</a></li>
+			</ul>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+<!-- About me -->
+<div ng-hide="showAboutMe">
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<table class="table">
+				<thead>
+					<tr>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<p><i class="fa fa-user fa-fw" style="color:#333333"></i> Marianne Melhoos</p>
+							<p><i class="fa fa-birthday-cake fa-fw" style="color:#333333"></i> February 7. 1992</p>
+							<p><i class="fa fa-envelope fa-fw" style="color:#333333"></i> mmelhoos@gmail.com</p>
+							<p><i class="fa fa-phone fa-fw" style="color:#333333"></i> +47 92647372</p>
+							<p><i class="fa fa-university fa-fw" style="color:#333333"></i> Norwegian University of Science and Technology, Communications Technology </p>
+					</tr>
+				</tbody>
+			</table>
+			<p></p>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+</div>
+
+<!-- Education -->
+<div ng-hide="showEducation">
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<table class="table">
+				<thead>
+					<tr>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<p>DATE</p>
+							<p>INSTITUTION</p>
+							<p>FILED OF STUDY</p>
+						</td>
+						<td>
+							<p>2011- (2016)</p>
+							<p>Norwegian University of Science and Technology</p>
+							<p>Communications Technology</p>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<p>2008 - 2011</p>
+							<p>Nadderud Videregående</p>
+							<p>Science</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p></p>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+</div>
+
+<!-- Work Experience-->
+<div class="row" ng-hide="showWorkExperience">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<table class="table">
+				<thead>
+					<tr>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<p>COMPANY NAME</p>
+							<p>TITLE</p>
+							<p>LOCATION</p>
+							<p>TIME PERIOD</p>
+							<p>DESCRIPTION</p>
+						</td>
+						<td>
+							<p>Sopra Steria</p>
+							<p>Junior Infrastructure Engineer - Summer Intern</p>
+							<p>Oslo</p>
+							<p>June 2015 - August 2015</p>
+							<p>Created a web application, using Angular.JS (JavaScript), CSS, HTML and SharePoint Online.</p>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<p>Knowit - Objectnet</p>
+							<p>Summer Intern</p>
+							<p>Oslo</p>
+							<p>June 2014 - September 2014</p>
+							<p>Software Sytem Developmer, using Scala, Java, HTML and SQL.</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+<!-- Miscellaneous -->
+<div class="row" ng-hide="showMiscellaneous">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<table class="table">
+				<thead>
+					<tr>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<p>VOLUNTEER</p>
+						</td>
+						<td>
+							<p>October 2013 - present: Member of Office and Social Committee, Abakus Student Association, Trondheim</p>
+							<p>October 2013 - June 2014: Deputy, Datakameratene, Trondheim</p>
+							<p>September 2011 - February 2014: Bartender, Studentersamfundet, Trondheim</p>
+							<p>November 2013: Student Assistant for Technology camp for girls, NTNU, Trodheim</p>
+							<p>October 2012 - September 2013: Head of Marketing, itDAGENE, Trondheim</p>
+							<p>October 2011: Bartender, UKA, Trondheim</p>
+							<p>August 2009 - August 2011: Football Coach, Oslo fotballkrets, Oslo </p>
+							<p>September 2010 - May 2011: Member of russ board, Nadderud vgs, Bærum</p>
+							<p>September 2009 - February 2010: Member of revue board, Nadderud vgs, Bærum</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>LANGUAGE</p>
+						</td>
+						<td>
+							<p>Native: Norwegian</p>
+							<p>Fluent: English</p>
+							<p>Basics: Japanese</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>IT KNOWLEDGE</p>
+						</td>
+						<td>
+							<p>Java, Python, Scala, JavaScript, AngularJS </p>
+							<p>Git, TFS</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>SOCIAL NETWORKING</p>
+						</td>
+						<td>	
+							<p>
+								<a href="http://facebook.com/melhoos"><i class="fa fa-facebook fa-fw" style="color:#333333"></i></a>
+            					<a href="https://no.linkedin.com/pub/marianne-melhoos/72/781/53b"><i class="fa fa-linkedin fa-fw" style="color:#333333"></i></a>
+            					<a href="https://github.com/melhoos"><i class="fa fa-github-alt fa-fw" style="color:#333333"></i></a>
+            					<a href="https://instagram.com/marrips/"><i class="fa fa-instagram fa-fw" style="color:#333333"></i></a>
+            				</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+

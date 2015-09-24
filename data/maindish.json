@@ -1,0 +1,92 @@
+[
+  { 
+    "title": "Blomkålpizzabunn",
+    "ingredients": "1 blomkål, 1 egg, 2ts oregano, salt og pepper",
+    "description": "1. Forvarm ovnen på 200 grader. 2. Mos rå blomkål i en kjøkkenmaskin, helt til blandingen blir blomkålris. 3. Pakk blomkålrisen i et rent tørkle og klem ut vannet. Desto mer vann, jo sprøere blir bunnen. 4. Bland blomkålrisen med resten av ingrediensene og legg det ut på et bakepapir. 5. Stek bunnen i 30-40 minutter midt i ovnen. 6. Ta bunnen ut av ovnen og legg på fyll, stek videre i 5-10 minutter.",
+    "time": 60,
+    "picture": "pictures\/maindish\/.png",
+    "heart": 0,
+    "persons": "2",
+    "tags": "tid, 2 porsjoner, 1 time, 60 minutter "
+  },
+  { 
+    "title": "Hvit pizzasaus",
+    "ingredients": "1.5dl créme fraîche, 0.25 rød chilli, 1 fedd hvitløk, 1ss olivenolje, krydderurter, pepper og salt",
+    "description": "1. Bland sammen créme fraîche, olivenolje, finhakket chili og hvitløk i en bolle. 2. Smak til med salt og pepper. 3. La sausen trekke minst 20 minutter før den smøres utover pizzabunnen",
+    "time": 30,
+    "picture": "pictures\/maindish\/.png",
+    "heart": 0,
+    "persons": "2",
+    "tags": "tid, 2 porsjoner, halvtime, 30 minutter "
+  },
+  { 
+    "title": "Lettvindt kyllingform",
+    "ingredients": "400g kyllingfilet, 1 pose sjampinjong og brokkoli suppe, 4dl vann, 2dl créme frîche, 150g frisk sjampinjong og diverse krydder",
+    "description": "1. Forvarm ovnen på 200 grader og del kyllingen i passe store biler og legg dem i en ildfast form. 2. Ha suppeposen i en kjele og tilsett vann, créme fraîche og krydder. Kok opp. 3. Stek sjampinjongen og ha den i sausen. Hell sausen over kyllingen og stek formen i 20 minutter.",
+    "time": 40,
+    "picture": "pictures\/maindish\/.png",
+    "heart": 0,
+    "persons": "2-3",
+    "tags": "tid, 2 porsjoner, 3 porsjoner, under 1 time, 40 minutter "
+  },
+  { 
+    "title": "Mats' pizzabunn",
+    "ingredients": "4 dl hvetemel, 1.5 dl lunkent vann, 0.5 pose tørrgjær og 0.25ts salt",
+    "description": "1. Forvarm ovnen på maks tempratur. 2. Bland alle ingrediensene i en bolle. 3. Elt deigne godt. 4. Sett deigen til heving i minst en halvtime. 5. Kjevl ut deigen på et stekebrett med bakepapir. 6. Velg valgfritt fyll og stek til osten blir gyllen.",
+    "time": 80,
+    "picture": "pictures\/maindish\/.png",
+    "heart": 0,
+    "persons": "2-3",
+    "tags": "tid, 2 porsjoner, 3 porsjoner, over 1 time, 80 minutter"
+  },
+  { 
+    "title": "Parmapizza",
+    "ingredients": "10 cherrytomater, 1 mozzarella, 3 skiver parmaskinke, 1 neve pinnekjerner, fersk basilikum, olivenolje, parmesan, 05. pakke ruccola, salt og pepper",
+    "description": "1. Forvarm ovnen på 75 grader. 2. Skjær cherrytomatene og mozzarellaen i skiver og fordel over deigien. Ringle over olivenoljen og krydre med salt og pepper. 3. Stek pizzaen i ovnen i ca 10-12 minutter til bunnen er ferdig stekt. 4. Fordel parmaskinken, basilikum, ruccola og parmesanen  over pizzaen rett før servering.",
+    "time": 30,
+    "picture": "pictures\/maindish\/.png",
+    "heart": 0,
+    "persons": "2",
+    "tags": "tid, 2 porsjoner, halv time, 30 minutter "
+  },
+  { 
+    "title": "Red curry i form",
+    "ingredients": "4 kyllingfileter, 2 små rødløk, 5 vårløk, 5ts rød karripasta, 0.5 boks kokosmelk, 1.5dl créme fraîche, 1 boks hele hermetiske tomater, 2ss soyasaus, 0.5 sitron, 4ts sukker, 1ss paprikapulver, 4ss peanøtter (kan sløyfes) og 1 neve frisk koriander (kan sløyfes)",
+    "description": "1. Forvarm ovnen på 200grader. Del kyllingfiletene i passe store biter (ca 2 cm tykke). Legg bitene over i en ildfastform sammen med rødløk i skiver og grovhakket vårløk. 2. I en bolle rører du sammen karripasta, kokosmelk, créme fraîche, kun tomatene fra hermetiske tomater, soyasaus, saften fra sitronen, paprikapulber og sukker. Hell det over i formen og la det stå å trekke i 10-15 minutter. 3. Stek formen i ca 25 minutter. Pass på at kyllingen er gjennomstekt. 4. Dryss over peanøtter like før servering, og pynt med grovrevet frisk koriander.",
+    "time": 60,
+    "picture": "pictures\/maindish\/.png",
+    "heart": 0,
+    "persons": "4",
+    "tags": "tid, 4 porsjoner , 1 time, 60 minutter "
+  },
+  { 
+    "title": "Rød pizzasaus",
+    "ingredients": "1ss olivenolje, 2-3 fedd hvitløk, 1ss oregano, 2 bokser oppkuttet tomater, 1ts sukker, 0.5 ts pepper og 0.5ts salt",
+    "description": "1. Varm opp olivenoljen i en mellomstor kjele på lav varme. Tilsett finhakket hvitløk og oregano, surr i ca 1 minutt. 2. Øk varmen til middels, tilsett tomater, sukker, pepper og salt. 3. Rør kontinuelig til det begynner å koke. Skru ned til lav varme. 4. La det stå i 90 minutter og trekke. 5. La sausen kjøle seg ned og bruk stavmikser til sausen får en god tykkelse. ",
+    "time": 120,
+    "picture": "pictures\/maindish\/.png",
+    "heart": 0,
+    "persons": "2",
+    "tags": "tid, 2 porsjoner, over 1 time, 120 minutter "
+  },
+  { 
+    "title": "Salmalakspizza",
+    "ingredients": "250g salmalaks, 250g revet ost, 1.5dl créme fraîche, 40g pinnekjerner, 1 rødløk, 100g parmesan, 2ss olivenolje, 1 sitron, 1 avokado, 1 pakke ruccola, salt og pepper",
+    "description": "1. Ha pizzabunnen klar. Smør på pizzasaus og strø over ost, med klatter créme fraîche her og der. 2. Legg deretter pinnekjerner, tynneskiver rødløk og halvparten av parmesanen på toppen. 3. Stek pizzaen til osten har smeltet. 4. Kutt salmalaksen i tynne skiver, mariner med salt, pepper, olivenolje og sitronsaft. 5. Skjær avokadoen i skiver. 6. Legg salmalaksen, avokadoen og ruccolaen oppå den ferdige stekte pizzaen. Strø over parmesan til slutt.",
+    "time": 45,
+    "picture": "pictures\/maindish\/.png",
+    "heart": 0,
+    "persons": "2",
+    "tags": "tid, 2 porsjoner, under 1 time, 45 minutter "
+  },
+  { 
+    "title": "",
+    "ingredients": "",
+    "description": "",
+    "time": 0,
+    "picture": "pictures\/maindish\/.png",
+    "heart": 0,
+    "persons": "0",
+    "tags": "tid, porsjoner, porsjon, time, minutter, min "
+  }
+]

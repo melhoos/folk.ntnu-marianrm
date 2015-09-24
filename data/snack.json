@@ -1,0 +1,12 @@
+ [
+  { 
+    "title": "Snacktest",
+    "ingredients": "",
+    "description": "",
+    "time": 0,
+    "picture": "pictures\/maindish\/.png",
+    "heart": 0,
+    "persons": "0",
+    "tags": "tid, porsjoner, porsjon, time, minutter, min "
+  }
+]
